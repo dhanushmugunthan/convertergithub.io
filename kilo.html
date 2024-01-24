@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="background-color: red; text-align: center;">Meter to Kilometers</h1>
+    <input type="text" id="m">
+    <h2 id="n" style="text-align: center;"></h2>
+    <button type="button" onclick="Display()">Click here</button>
+    <script>
+        function Display(){
+        let a=document.getElementById("m").value
+        let b=document.getElementById("n")
+        b.innerHTML=a/1000 + " kms"}
+
+    </script>
+</body>
+</html>

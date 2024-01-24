@@ -1,0 +1,26 @@
+.div{
+ height: 400px;
+ width: 400px;
+ background-color: black;
+ border-radius: 500px;
+ align-items: center;
+  display: flex;
+ justify-content: center;
+ /* align-items: center; */
+ /* justify-self: center;  */
+ flex-direction: column;
+ font-style: italic;
+ text-align: center;
+ /* justify-self: flex-start; */
+ position: relative;
+ left: 500px;
+ top: 100px;
+ font-size: larger;
+ }
+ .m{
+    text-align: center;
+    background-color: red;
+ }
+ a:hover{
+     color: green ;
+ }

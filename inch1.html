@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <h1 style="background-color: red; text-align: center;">centimeters to Inches</h1>
+    <input type="text" id="text1">
+    <h2 id="output"  style="text-align: center;"></h2>
+    <button type="button" onclick="Display()">click here</button>
+    <script>
+      function Display(){
+     let p=document.getElementById("text1").value
+     let q=document.getElementById("output")
+     q.innerHTML=p/2.54 +" inch"
+     }
+    </script>
+</body>
+</html>
